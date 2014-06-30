@@ -119,7 +119,7 @@ class WP_Excerpt_Settings
 
 		$screen->add_help_tab( array(
 			'id'	=> 'wpus_help_excerpt_tab',
-			'title'	=> __('Excerpt', 'wpus-plugin'),
+			'title'	=> __('Excerpt', 'wp-excerpt-settings'),
 			'content'	=> '<p><ul><li>' . __('Displays the excerpt of the current post with the "[...]" text at the end. If you do not provide an explicit excerpt to a post (in the post editor\'s optional excerpt field), it will display an automatic excerpt which refers to the first 55 words of the post\'s content. (see <a href="http://codex.wordpress.org/Function_Reference/the_excerpt" target="_blank">Function Reference/the excerpt in Wordpress Codex</a>)', 'wp-excerpt-settings') . '</li>'
 				. '</ul>'
 				. '</p>',
