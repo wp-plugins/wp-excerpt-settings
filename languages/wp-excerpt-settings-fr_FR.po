@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-excerpt-settings\n"
+"POT-Creation-Date: 2014-07-07 08:09+0100\n"
+"PO-Revision-Date: 2014-07-07 08:13+0100\n"
+"Last-Translator: Julien ELIAS <j.elias@laposte.net>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-excerpt-settings.php:71
+msgid "Settings"
+msgstr "Réglages"
+
+#: ../wp-excerpt-settings.php:85 ../wp-excerpt-settings.php:125
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: ../wp-excerpt-settings.php:86
+msgid "Excerpt text \"More\""
+msgstr "Texte Extrait \"Lire la suite\""
+
+#: ../wp-excerpt-settings.php:87
+msgid "Excerpt words length"
+msgstr "Nombre de mots pour l'Extrait"
+
+#: ../wp-excerpt-settings.php:94
+msgid ""
+"By default, core excerpt display \"[...]\" text at the end and refers to the "
+"first 55 words of the post's content."
+msgstr ""
+"Par défaut, l'Extrait affiche  \"[...] \" à la fin du texte et utilise les "
+"55 premiers mots d'un contenu (articles, pages)."
+
+#: ../wp-excerpt-settings.php:103
+msgid "Default: [...]"
+msgstr "(par défaut: [...])"
+
+#: ../wp-excerpt-settings.php:112
+msgid "Default: 55, min: 5, max: 255"
+msgstr "(par défaut: 55, min:5, max: 255)"
+
+#: ../wp-excerpt-settings.php:126
+msgid ""
+"Displays the excerpt of the current post with the \"[...]\" text at the end. "
+"If you do not provide an explicit excerpt to a post (in the post editor's "
+"optional excerpt field), it will display an automatic excerpt which refers "
+"to the first 55 words of the post's content. (see <a href=\"http://codex."
+"wordpress.org/Function_Reference/the_excerpt\" target=\"_blank\">Function "
+"Reference/the excerpt in Wordpress Codex</a>)"
+msgstr ""
+"L'affichage de l'Extrait d'un contenu se termine par un texte à la fin "
+"\"[...]\". Si vous ne fournissez pas un extrait explicite à un contenu (dans "
+"l'éditeur de contenu, champ 'Extrait'), il affiche un extrait automatique "
+"qui se réfère aux 55 premiers mots du contenu (articles, pages). (voir <a "
+"href=\"http://codex.wordpress.org/Function_Reference/the_excerpt\" target="
+"\"_blank\">Function Reference/the excerpt in Wordpress Codex</a>)"
+
+#~ msgid "For more information:"
+#~ msgstr "Pour plus d'informations:"
+
+#~ msgid "Visit plugin page"
+#~ msgstr "Aller sur la page de l'extension"
+
+#~ msgid "Excerpt words length (default: 55, max: 255)"
+#~ msgstr "Nombre de mots pour l'Extrait (par défaut: 55, max: 255)"
