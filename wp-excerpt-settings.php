@@ -8,7 +8,7 @@ Plugin Name: WP Excerpt Settings
 Plugin URI: http://wordpress.org/plugins/wp-excerpt-settings/
 Description: Configure WordPress Excerpt through UI (User Interface).
 Author: Yslo
-Version: 1.1.0
+Version: 1.1.1
 Author URI: http://profiles.wordpress.org/yslo/
 */
 
