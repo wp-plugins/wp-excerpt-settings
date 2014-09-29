@@ -1,7 +1,7 @@
 <?php
 /**
  * @package wp-excerpt-settings
- * @version 1.1.0
+ * @version 1.1.1
  */
 /*
 Plugin Name: WP Excerpt Settings
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) exit; // Exit if accessed directly
 class WP_Excerpt_Settings
 {
 	// Define version
-	const VERSION = '1.1.0';
+	const VERSION = '1.1.1';
 
 	var $wp_excerpt_options;
 	var $wp_excerpt_admin_page;
@@ -33,7 +33,7 @@ class WP_Excerpt_Settings
 		load_plugin_textdomain('wp-excerpt-settings', false, 'wp-excerpt-settings/languages');
 
 		add_filter('excerpt_more', array($this, 'wp_excerpt_more'));
-		add_filter('excerpt_length', array($this, 'wp_excerpt_length', 999));
+		add_filter('excerpt_length', array(&$this, 'wp_excerpt_length'), 999);
 		
 		add_action('admin_init', array(&$this, 'wp_excerpt_settings_admin_init'));
 	}
@@ -60,7 +60,6 @@ class WP_Excerpt_Settings
 		return $this->wp_excerpt_options['excerpt_more'];
 	}
 	
-
 	// http://codex.wordpress.org/Function_Reference/the_excerpt
 	function wp_excerpt_length($length){
 		return $this->wp_excerpt_options['excerpt_length'];
