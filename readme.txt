@@ -3,7 +3,7 @@ Contributors: Yslo
 Tags: automatic, updates, admin, plugin, core, theme, excerpt
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,9 @@ You will find 'Excerpt' menu in your WordPress Settings panel.
 3. Excerpt settings panel
 
 == Changelog ==
+
+= 1.1.1 =
+* Fix : compatibility with twentyfourteen, twentythirteen, twentytwelve
 
 = 1.1.0 =
 * Excerpt settings added on Reading Settings
